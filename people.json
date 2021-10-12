@@ -1,20 +1,20 @@
 {
-  "firstName": "John",
-  "lastName" : "doe",
-  "age"      : 26,
-  "address"  : {
-    "streetAddress": "naist street",
-    "city"         : "Nara",
-    "postalCode"   : "630-0192"
-  },
-  "phoneNumbers": [
+  "ble": [
     {
-      "type"  : "iPhone",
-      "number": "0123-4567-8888"
+      "name":  "ncp_adding_watchdog_in_ncp_mode",
+      "sdk_version": "3.1.2\n", 
+      "iar_build": "failing", 
+      "iar_color": "orange", 
+      "gcc_build": "failing", 
+      "gcc_color": "orange"
     },
     {
-      "type"  : "home",
-      "number": "0123-4567-8910"
+      "name":  "ncp_application_level_ota",
+      "sdk_version": "3.2.2\n", 
+      "iar_build": "success", 
+      "iar_color": "orange", 
+      "gcc_build": "passing", 
+      "gcc_color": "green"
     }
   ]
 }
